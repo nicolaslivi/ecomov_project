@@ -1,0 +1,16 @@
+.imgLogo {
+    border: none;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 10vw;
+    width: 10vw;
+}
+
+.imgLogo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    width: 10vw;
+}
