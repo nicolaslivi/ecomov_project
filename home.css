@@ -10,7 +10,7 @@ main {
 
 footer {
     width: 100vw;
-    height: 15vw;
+    height: 15vh;
 }
 
 .imgLogo {
@@ -65,5 +65,8 @@ footer {
 
 .imgFundo {
     width: 100vw;
-    height: 80vw;
+    height: 80vh;
+    background-image: url(./assets/imagem-fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
