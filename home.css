@@ -65,7 +65,7 @@ footer {
 }
 
 .menuLojas:hover {
-    transition: 0.5s;
+    transition: 0.01s;
     border: 1px solid;
     border-color: rgb(101, 119, 117);
     border-radius: 5px;
@@ -164,4 +164,5 @@ footer {
     margin-left: 4vw;
     font-size: 48px;
     margin-top: 2vh;
+    text-shadow: 1px 1px 6px black;
 }
