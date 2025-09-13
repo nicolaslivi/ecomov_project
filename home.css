@@ -146,6 +146,8 @@ footer {
 }
 
 #selectSeta{
+    width: 3vw;
+    height: 6vh;
     position: absolute;
     right: 2vw;   /* distância da borda direita */
     top: 50%;     /* centraliza verticalmente */
@@ -165,9 +167,11 @@ footer {
 }
 
 .box-select-cidadesNova #selectSeta {
+    width: 3vw;
+    height: 6vh;
     position: absolute;
     right: 2vw;
-    top: 5%; /* fixa a seta no topo */
+    top: 10%; /* fixa a seta no topo */
     transform: translateY(0); /* remove centralização */
 }
 
