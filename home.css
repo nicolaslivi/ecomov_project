@@ -195,3 +195,46 @@ footer {
     margin-top: 2vh;
     text-shadow: 1px 1px 6px black;
 }
+
+.alinhandoCidades {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+}
+
+.botaoEscolhaCidade {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 3vw;
+    cursor: pointer;
+    opacity: 0%;
+}
+
+.botaoEscolhaCidadeNova {
+    width: 28vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 3vw;
+    cursor: pointer;
+}
+
+.scrowBoxCidades {
+    background-color: rgb(157, 179, 179);
+    width: 1vw;
+    height: 8vh;
+    border-radius: 20px;
+}

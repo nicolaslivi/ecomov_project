@@ -1,14 +1,20 @@
-let botaoSeta = document.getElementById('selectSeta');
 let clique = true;
-botaoSeta.addEventListener('click', () => {
-    let classeAntiga = document.querySelector('.box-select-cidades');
-    let classeNova = document.querySelector('.box-select-cidadesNova');
+function novaBoxCidades (){
+    let boxAntiga = document.querySelector('.box-select-cidades');
+    let boxNova = document.querySelector('.box-select-cidadesNova');
+    let cidadesAntiga = document.querySelectorAll('.botaoEscolhaCidade');
+    let cidadesNova = document.querySelectorAll('.botaoEscolhaCidadeNova');
     if(clique){
-        classeAntiga.classList.replace('box-select-cidades', 'box-select-cidadesNova');
+        boxAntiga.classList.replace('box-select-cidades', 'box-select-cidadesNova');
+        cidadesAntiga.forEach(cidade => {
+            cidade.classList.replace('botaoEscolhaCidade', 'botaoEscolhaCidadeNova')
+        });
         clique = false;
     } else {
-        classeNova.classList.replace('box-select-cidadesNova', 'box-select-cidades');
+        boxNova.classList.replace('box-select-cidadesNova', 'box-select-cidades');
+        cidadesNova.forEach(cidade  => {
+            cidade.classList.replace('botaoEscolhaCidadeNova', 'botaoEscolhaCidade')
+        });
         clique = true;
-        console.log('estou aqui')
     }
-});
+};
