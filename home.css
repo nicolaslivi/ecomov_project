@@ -227,14 +227,32 @@ footer {
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: start;
-    margin-right: 3vw;
+    justify-content: center;
+    font-size: 16px;
+    margin-right: 1vw;
     cursor: pointer;
+}
+
+.boxAlinhaScrow {
+    width: 1vw;
+    height: 40vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-right: 2vh;
 }
 
 .scrowBoxCidades {
     background-color: rgb(157, 179, 179);
-    width: 1vw;
-    height: 8vh;
+    width: 0.5vw;
+    height: 25vh;
+    border-radius: 20px;
+    opacity: 0%;
+}
+
+.scrowBoxCidadesNova {
+    background-color: rgb(157, 179, 179);
+    width: 0.5vw;
+    height: 25vh;
     border-radius: 20px;
 }
