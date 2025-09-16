@@ -1,3 +1,9 @@
+main {
+    height: 200vw !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
 .caixaDeBusca-container {
     position: relative;
     display: inline-block;
@@ -36,4 +42,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.alinhaFiltros {
+    width: 20vw;
+}
+
+.alinhaConteudo {
+    width: 80vw;
+}
+
+.marcas-container{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxMarcas-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxMarcas {
+    margin-top: 5vh;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 20px;
+    border: 8px solid rgb(101, 119, 117);
+    margin-right: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logosMarcas {
+    width: 15vw;
+    height: 25vh;
+    margin: 2vh;
 }
