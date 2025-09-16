@@ -1,0 +1,39 @@
+.caixaDeBusca-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 25vw;
+}
+
+.caixaDeBusca {
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 25vw;
+    height: 4vh;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+#lupa{
+    position: absolute;
+    right: 8px; /* distância da borda direita */
+    top: 50%;
+    transform: translateY(-50%); /* centraliza verticalmente */
+    width: 16px; /* ajusta tamanho */
+    height: 16px;
+    cursor: pointer;
+}
+
+.estilizaUnidade {
+    background-color: rgb(19, 121, 108);
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 12px;
+    height: 4vh;
+    width: 15vw;
+    margin-right: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
