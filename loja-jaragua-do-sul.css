@@ -48,6 +48,50 @@ main {
     width: 20vw;
 }
 
+.menuFiltros {
+    width: 5vw;
+    height: 10vh;
+    background-color: rgb(101, 119, 117);
+    border-radius: 10px;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box-filtros {
+    width: 15vw;
+    height: 200vh;
+    background-color: rgb(101, 119, 117);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.filtrosCarros {
+    display: flex;
+    flex-direction: column;
+    opacity: 0%;
+    margin-top: 50vh;
+}
+
+.filtrosCarrosNova {
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloFiltros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    margin-top: 2vh;
+    color: white;
+}
+
 .alinhaConteudo {
     width: 80vw;
 }
@@ -69,7 +113,7 @@ main {
     height: 30vh;
     border-radius: 20px;
     border: 8px solid rgb(101, 119, 117);
-    margin-right: 7vw;
+    margin-right: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,4 +123,98 @@ main {
     width: 15vw;
     height: 25vh;
     margin: 2vh;
+}
+
+.setaMarcas {
+    width: 4vw;
+    height: 6vh;
+    background-color: rgb(101, 119, 117);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.setaMarcas-container{
+    width: 3vw;
+    height: 30vh;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vw;
+}
+
+.carros-container {
+    margin-top: 10vh;
+}
+
+.cardCarro {
+    width: 15vw;
+    height: 50vh;
+    background-color: rgb(234, 234, 234);
+    border-radius: 20px;
+    margin-right: 6.5vw;
+}
+
+.cardCarro-container {
+    margin-top: 10vh;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgCardCarro-container{
+    width: 15vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgCardCarro{
+    width: 15vw;
+    height: 25vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.infosCardCarro-container{
+    width: 15vw;
+    height: 20vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.textInfos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoDetalhar-container{
+    width: 15vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoDetalhar {
+    width: 7.5vw;
+    height: 4vh;
+    background-color: rgb(101, 119, 117);
+    font-size: 3vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5vh;
+    border-radius: 5px;
 }
